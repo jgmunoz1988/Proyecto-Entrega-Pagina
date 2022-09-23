@@ -26,6 +26,7 @@ body {
     opacity: 0.8;
     padding: 2px;
     text-align: center;
+    text-decoration: none;
 }
 
 .menu_superior ul {
@@ -83,7 +84,7 @@ body {
 }
 
 .Historia .seccion_historia {
-    background-color: aliceblue;
+    background-color: rgb(245, 245, 245);
     padding: 1rem 1rem;
     margin: 0.5rem 0.5rem;
     color: rgb(0, 0, 0);
@@ -104,7 +105,7 @@ body {
 }
 
 .seccion_beneficios p {
-    background-color: aliceblue;
+    background-color: rgb(245, 245, 245);
     border-radius: 5px;
     margin-left: 1vw;
     text-decoration: solid;
@@ -116,7 +117,7 @@ body {
 }
 
 .beneficios {
-    background-color: aliceblue;
+    background-color: rgb(245, 245, 245);
     opacity: 0.8;
     border-radius: 5px;
     padding: 10px 0px 10px 50px;
@@ -132,7 +133,7 @@ body {
 }
 
 .seccion_pasos p {
-    background-color: aliceblue;
+    background-color: rgb(245, 245, 245);
     margin-left: 1vw;
     border-radius: 5px;
     text-decoration: solid;
@@ -144,7 +145,7 @@ body {
 }
 
 .pasos {
-    background-color: aliceblue;
+    background-color: rgb(245, 245, 245);
     opacity: 0.8;
     border-radius: 5px;
     padding: 10px 0px 10px 50px;
@@ -193,19 +194,29 @@ footer {
     background-color: rgb(209, 18, 18);
 }
 
-.title_container_form h2 {
-    text-align: center;
+.nav{
+    text-decoration: none;
+}
+
+.title_container{
     margin-top: 5vh;
-    padding: 10px 0px 50px 0px;
-    font-size: 60px;
+    border-radius: 25px;
+    width: 80%;
     background-color:rgb(209, 18, 18);
-    color:aliceblue ;
+}
+
+.title {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 60px;
+    color:rgb(245, 245, 245);
 }
 
 .main_form {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -216,7 +227,7 @@ footer {
     gap: 10px;
     width: 80%;
     height: 90%;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     border-radius: 25px;
     opacity: 0.8;
     border: none;
@@ -274,7 +285,7 @@ footer {
 @media (max-width: 460px){
 }
 
-/*--------------------------------------------------------------<(( CSS_GRID_PRODUCTOS ))>------------------------------------------------------------*/
+/*------------------------------------------------------------<(( CSS_GRID_PRODUCTOS ))>------------------------------------------------------------*/
 
 * {
     margin: 0;
