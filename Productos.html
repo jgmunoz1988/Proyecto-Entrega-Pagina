@@ -6,30 +6,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>Página Prueba AMANDA/Productos</title>
 </head>
 
 <body class="body_productos">
-    <div class="img_header">
-        <img src="https://amigofoods.co.nz/image/cache/catalog/Logos/amanda-300x300w.jpeg" width="300"
-            alt="Yerba mate AMANDA">
+    <header>
+        <div class="img_header">
+            <img src="https://amigofoods.co.nz/image/cache/catalog/Logos/amanda-300x300w.jpeg" width="300"
+                alt="Yerba mate AMANDA">
 
-        <h1><strong> La Mejor Yerba <span>Argentina</span></strong></h1>
-    </div>
-    <div class="grilla">
-        <section class="border" id="articulos"> Seccion Articulos </section>
-        <section class="border" id="productos"> Seccion Productos</section>
-        <section class="border" id="servicios"> Seccion Servicios</section>
-        <aside class="border" id="publicidad"> Aside Publicidad</aside>
-        <nav class="border" id="navegacion">
-            <ul>
-                <li class="menu"> <a href="./index.html"> Home </a></li>
-                <li class="menu"> <a href="./Productos.html"> Productos </a></li>
-                <li class="menu"> <a href="#"> Contacto </a></li>
-                <li class="menu"> <a href="./formulario.html"> Formulario </a></li>
+            <h1><strong> La Mejor Yerba <span>Argentina</span></strong></h1>
+        </div>
+        <nav class="menu_superior">
+            <ul class="menu_sup_container">
+                <li class="menu"> <a class="text-decoration-none" href="./index.html"> Home </a></li>
+                <li class="menu"> <a class="text-decoration-none" href="./Productos.html"> Productos </a></li>
+                <li class="menu"> <a class="text-decoration-none" href="#"> Contacto </a></li>
+                <li class="menu"> <a class="text-decoration-none" href="./formulario.html"> Formulario </a></li>
             </ul>
         </nav>
-        <section class="border" id="pie"> Pie Pagina </section>
+    </header>
+    <div class="grilla">
+        <section class="border" id="articulos">
+            <h2 class="text-center text-light"> Nuestros Productos </h2>
+            <a href="https://tienda.yerbamanda.com.ar/productos/" target="_blank" rel="noopener noreferrer">
+                <div id="carouselExampleInterval" class="carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./Imagenes_amanda/Yerbas/yerba_premium_3_c1-bc9a636eb1dfa6423d16109957594957-320-0.jpg"
+                                class="d-block img-thumbnail ratio-1x1 w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./Imagenes_amanda/Yerbas/yerba_especial_500_31-ea223495e6123abcaa15192340277428-320-0.jpg"
+                                class="d-block img-thumbnail ratio-1x1 w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Imagenes_amanda/Yerbas/yerba_1950_500_31-e4047b39f603b5319b16124304023483-320-0.jpg"
+                                class="d-block img-thumbnail ratio-1x1 w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Imagenes_amanda/Yerbas/yerba_limon_500_3_b11-48e8ebd40ebe9d179a15192345523204-320-0.jpg"
+                                class="d-block img-thumbnail ratio-1x1 w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Imagenes_amanda/Yerbas/yerba_naranja_500_3_c1-04e34ef3678cbf934616109956815233-320-0.jpg"
+                                class="d-block img-thumbnail ratio-1x1 w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Imagenes_amanda/Yerbas/yerba_suave_500_31-2e3ab3200d3b82720016171148904758-320-0.jpg"
+                                class="d-block img-thumbnail ratio-1x1 w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Imagenes_amanda/Yerbas/yerba_1950_500_31-e4047b39f603b5319b16124304023483-320-0.jpg"
+                                class="d-block img-thumbnail ratio-1x1 w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </a>
+        </section>
+
+        <section class="border" id="productos">
+            <h2 class="text-center text-light"> Clientes Felices </h2>
+            <div id="carouselExampleSlidesOnly" class="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Imagenes_amanda/Clientes/Sin título.jpg" class="d-block img-thumbnail img-fluid ratio-1x1 w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagenes_amanda/Clientes/4.jpg" class="d-block img-thumbnail img-fluid ratio-1x1 w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagenes_amanda/Clientes/2.jpg" class="d-block img-thumbnail img-fluid ratio-1x1 w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagenes_amanda/Clientes/3.jpg" class="d-block img-thumbnail img-fluid ratio-1x1 w-100"
+                            alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border" id="auspiciante">
+            <div class="d-grid gap-3 mx-auto">
+                <h2 class="text-center text-light"> Auspiciantes </h2>
+                <img src="./Imagenes_amanda/Mates/descarga.png" class="img-thumbnail img-fluid ratio-1x1 w-100" alt="..."> <a
+                    href="https://www.matesur.net/" target="_blank" rel="noopener noreferrer"> <button type="submit"
+                        class="btn btn-danger"
+                        style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 6rem; --bs-btn-font-size: 1rem;"> Haz
+                        Click Aquí </button></a>
+            </div>
+        </section>
+        <aside class="border" id="publicidad"> Aside Publicidad</aside>
+        <section class="border" id="navegacion"> Seccion Navegacion </section>
+        <section class="border" id="pie"><a href="https://mactrail.com/" target="_blank" rel="noopener noreferrer"> <img
+                    src="./Imagenes_amanda/MacTrail/logo-mactrail-small.png" class="img-thumbnail w-100"
+                    alt=""></a>
+        </section>
     </div>
     <footer><small>Sin Derechos de Autor - <a href="https://yerbamanda.com.ar/" target="_blank">Yerba mate
                 <strong>AMANDA</strong></a></small>

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>Página Prueba AMANDA/Contactos</title>
 </head>
 
@@ -13,28 +14,29 @@
 
     <header class="title_container_form">
         <div class="img_header">
-            <img src="https://amigofoods.co.nz/image/cache/catalog/Logos/amanda-300x300w.jpeg" width="300" alt="Yerba mate AMANDA">
-        
-        <h1><strong> La Mejor Yerba <span>Argentina</span></strong></h1>
+            <img src="https://amigofoods.co.nz/image/cache/catalog/Logos/amanda-300x300w.jpeg" width="300"
+                alt="Yerba mate AMANDA">
+
+            <h1><strong> La Mejor Yerba <span>Argentina</span></strong></h1>
         </div>
         <nav class="menu_superior">
-            <ul>
-                <li class="menu"> <a href="./index.html"> Home </a></li>
-                <li class="menu"> <a href="./Productos.html"> Productos </a></li>
-                <li class="menu"> <a href="#"> Contacto </a></li>
-                <li class="menu"> <a href="./formulario.html"> Formulario </a></li>
+            <ul class="menu_sup_container">
+                <li class="menu"> <a class="text-decoration-none" href="./index.html"> Home </a></li>
+                <li class="menu"> <a class="text-decoration-none" href="./Productos.html"> Productos </a></li>
+                <li class="menu"> <a class="text-decoration-none" href="#"> Contacto </a></li>
+                <li class="menu"> <a class="text-decoration-none" href="./formulario.html"> Formulario </a></li>
             </ul>
-            
+
         </nav>
-        
-        
-        
+
+
+
     </header>
 
     <main class="main_form">
-    <div class="title_container">
-    <h2 class="title">Completa tus Datos</h2>
-    </div>
+        <div class="title_container">
+            <h2 class="title">Completa tus Datos</h2>
+        </div>
         <form class="form_container" action="#">
 
             <label for="Nombre"> <small>(*)</small> Nombre </label>
@@ -74,18 +76,25 @@
 
             <p class="terms_conditions_form"><strong><small>(*)</small>Campos Obligatórios</strong></p>
 
-            <input class="submit_form" type="submit" value="Enviar" />
+            <div>
+                <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+                <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button"
+                    aria-pressed="true">Active toggle link</a>
+                <a class="btn btn-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled
+                    toggle link</a>
+            </div>
         </form>
 
 
     </main>
-    <footer><small>Sin Derechos de Autor - <a href="https://yerbamanda.com.ar/" target="_blank">Yerba mate <strong>AMANDA</strong></a></small>
+    <footer><small>Sin Derechos de Autor - <a href="https://yerbamanda.com.ar/" target="_blank">Yerba mate
+                <strong>AMANDA</strong></a></small>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-<script src="../Clase_8/js/bootstrap.min.js"></script>
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="../Clase_8/js/bootstrap.min.js"></script>
 </body>
 
 </html>
