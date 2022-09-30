@@ -8,7 +8,7 @@
     color: black;
 }
 
-/*----------------------------------------------------------<(( CSS_INDEX ))>---------------------------------------------------------------*/
+/*------------------------------------<(( CSS_INDEX ))>------------------------------------------*/
 
 html {
     font-size: 1.5rem;
@@ -21,13 +21,13 @@ body {
     background-color: rgb(209, 18, 18);
 }
 
-.menu_superior {
+.menuSuperior {
     background-color: rgb(245, 245, 245);
     opacity: 0.8;
     text-align: center;
 }
 
-.menu_sup_container {
+.menuSupContainer {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -44,12 +44,12 @@ body {
     display: block;
 }
 
-.img_header {
+.imgHeader {
     background-color: rgb(209, 18, 18);
     padding: 10px 10px;
 }
 
-.img_header h1 {
+.imgHeader h1 {
     text-align: center;
     color: rgb(209, 18, 18)d;
     background-color: rgb(245, 245, 245);
@@ -59,12 +59,12 @@ body {
     font-style: italic;
 }
 
-.img_header span {
+.imgHeader span {
     color: rgb(245, 245, 245);
     background-color: rgb(0, 179, 255);
 }
 
-.Historia {
+.historia {
     text-align: center;
     background-color: rgb(245, 245, 245);
     border-radius: 50px;
@@ -72,7 +72,7 @@ body {
     margin: 8vh 5vw;
 }
 
-.Historia h2 {
+.historia h2 {
     color: rgb(29, 107, 180);
     font-size: 1.2rem;
     font-weight: 700;
@@ -80,7 +80,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.Historia .seccion_historia {
+.historia .seccionHistoria {
     background-color: rgb(245, 245, 245);
     padding: 1rem 1rem;
     margin: 0.5rem 0.5rem;
@@ -91,7 +91,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.Historia img {
+.historia img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -99,9 +99,14 @@ body {
 .amandaCentenario {
     text-align: center;
     margin: 2rem;
+    width: 90%;
 }
 
-.seccion_beneficios p {
+.amandaCentenario iframe{
+    width: 100%;
+}
+
+.seccionBeneficios p {
     background-color: rgb(245, 245, 245);
     border-radius: 5px;
     margin-left: 1vw;
@@ -121,7 +126,7 @@ body {
     margin: 5vw;
 }
 
-.seccion_beneficios li {
+.seccionBeneficios li {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 0.8rem;
@@ -129,7 +134,7 @@ body {
     text-decoration: solid;
 }
 
-.seccion_pasos p {
+.seccionPasos p {
     background-color: rgb(245, 245, 245);
     margin-left: 1vw;
     border-radius: 5px;
@@ -149,7 +154,7 @@ body {
     margin: 5vw;
 }
 
-.seccion_pasos li {
+.seccionPasos li {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 0.8rem;
@@ -163,6 +168,11 @@ body {
     margin-bottom: 2rem;
 }
 
+.pasoapaso iframe{
+    width: 100%;
+}
+
+
 footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(245, 245, 245);
@@ -173,10 +183,16 @@ footer {
     background-color: rgb(209, 18, 18);
 }
 
-/*------------------------------------------------------------------<(( CSS_FORM ))>----------------------------------------------------------------------*/
+@media (max-width: 500px){
 
 
-.body_form {
+}
+
+
+/*-------------------------------------------<(( CSS_FORM ))>----------------------------------*/
+
+
+.bodyForm {
     background-image: url(https://images.pexels.com/photos/3893348/pexels-photo-3893348.jpeg?cs=srgb&dl=pexels-anna-3893348.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +202,7 @@ footer {
 
 
 
-.title_container{
+.titleContainer{
     margin-top: 5vh;
     border-radius: 25px;
     width: 80%;
@@ -201,14 +217,14 @@ footer {
     color:rgb(245, 245, 245);
 }
 
-.main_form {
+.mainForm {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.form_container {
+.formContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,24 +239,24 @@ footer {
     margin-bottom: 5vh;
 }
 
-.form_container label {
+.formContainer label {
 
     font-size: 50px;
 
 }
 
-.form_container input {
+.formContainer input {
     font-size: 35px;
     border: none;
     border-color: black;
 }
 
-.form_container small {
+.formContainer small {
     font-size: 15px;
     color: black;
 }
 
-.terms_scroll_form {
+.termsScrollForm {
     height: 4rem;
     width: 70%;
     overflow: auto;
@@ -249,20 +265,21 @@ footer {
     font-size: 20px;
 }
 
-.terms_conditions_form {
+.termsConditionsForm {
     display: flex;
     justify-content: center;
     font-size: 20px;
     color: black;
 }
 
-.terms_conditions,
+.termsConditions,
 .checkbox_form {
     height: 20px;
     width: 20px;
 }
 
-.submit_form {
+.submitForm {
+    color: black;
     padding: 1vh;
     margin: 10px;
     font-size: 2rem;
@@ -273,9 +290,9 @@ footer {
 @media (max-width: 460px){
 }
 
-/*------------------------------------------------------------<(( CSS_GRID_PRODUCTOS ))>------------------------------------------------------------*/
+/*----------------------------------<(( CSS_GRID_PRODUCTOS ))>-------------------------------------*/
 
-.body_productos {
+.bodyProductos {
     height: 100%;
     width: 100%;
 }
@@ -287,7 +304,8 @@ footer {
         "navegacion productos publicidad"
         "navegacion auspiciante publicidad"
         "pie pie pie";
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
+    grid-auto-rows: max-content;
     grid-column: auto;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
